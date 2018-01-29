@@ -1,0 +1,10 @@
+numero=[0,0,0]  
+print 'Operações aritméticas'  
+print 'Entre com dois números inteiros e um número real: '  
+for i in range(3):   
+        numero[i] = input("Valor do número %d: "%(i+1))  
+resultado1 = (2*numero[0]) * (numero[1]/2)  
+resultado2 = (3*numero[0]) + (numero[2])  
+resultado3 = (numero[2]**3);   
+print ' O produto do dobro do primeiro com a metade do segundo: %d \n A soma do triplo do primeiro com o terceiro: %d \n O terceiro elevado ao cubo: %.2f' % (resultado1,resultado2,resultado3)  
+    
